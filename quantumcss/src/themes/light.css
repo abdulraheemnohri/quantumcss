@@ -1,0 +1,56 @@
+:root {
+  --q-color-background: #ffffff;
+  --q-color-text: #333333;
+  --q-color-primary: #007bff;
+  --q-color-secondary: #6c757d;
+  --q-color-accent: #17a2b8;
+  --q-color-border: #dee2e6;
+  --q-color-shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-color: var(--q-color-background);
+  color: var(--q-color-text);
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--q-color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--q-color-primary);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darken(var(--q-color-primary), 10%);
+}
+
+.q-card {
+  background-color: #ffffff;
+  border: 1px solid var(--q-color-border);
+  border-radius: 4px;
+  box-shadow: 0 2px 4px var(--q-color-shadow);
+  padding: 1rem;
+}
+
+.q-navbar {
+  background-color: var(--q-color-primary);
+  color: #ffffff;
+  padding: 1rem;
+}
+
+.q-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+}

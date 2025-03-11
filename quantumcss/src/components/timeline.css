@@ -1,0 +1,29 @@
+.q-timeline {
+  position: relative;
+  padding: 2rem 0;
+}
+
+.q-timeline-item {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.q-timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  background: var(--q-color-primary);
+}
+
+.q-timeline-marker {
+  position: absolute;
+  left: -0.5rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: var(--q-color-primary);
+}

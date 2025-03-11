@@ -1,0 +1,36 @@
+.q-carousel {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.q-carousel-track {
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.q-carousel-slide {
+  flex: 0 0 100%;
+  width: 100%;
+}
+
+.q-carousel-nav {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.5rem;
+}
+
+.q-carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--q-color-border);
+  cursor: pointer;
+}
+
+.q-carousel-dot.active {
+  background: var(--q-color-primary);
+}

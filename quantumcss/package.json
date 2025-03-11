@@ -1,0 +1,55 @@
+{
+  "name": "quantumcss",
+  "version": "1.0.0",
+  "description": "A lightweight, modular, and modern CSS framework.",
+  "main": "dist/quantum.min.css",
+  "bin": {
+    "quantum": "./bin/quantum-cli.js"
+  },
+  "scripts": {
+    "build": "postcss src/quantum.css -o dist/quantum.min.css",
+    "test": "jest",
+    "lint": "eslint .",
+    "dev": "vite",
+    "build:types": "tsc",
+    "marketplace:publish": "node scripts/publish-theme.js",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test:e2e": "cypress run",
+    "test:a11y": "jest --config jest.a11y.config.js",
+    "build:cdn": "postcss src/quantum.css -o cdn/quantum.cdn.css && cssnano cdn/quantum.cdn.css > cdn/quantum.cdn.min.css",
+    "deploy:cdn": "node scripts/deploy-cdn.js"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "utility",
+    "components",
+    "responsive"
+  ],
+  "author": "abdulraheemnohri <abdulraheemnohri@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0",
+    "cssnano": "^5.0.0",
+    "jest": "^26.0.0",
+    "eslint": "^7.0.0",
+    "axe-core": "^4.4.1",
+    "jest-axe": "^5.0.1",
+    "vite": "^2.0.0",
+    "typescript": "^4.0.0",
+    "commander": "^8.0.0",
+    "vuepress": "^2.0.0",
+    "cypress": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdulraheemnohri/quantumcss.git"
+  },
+  "homepage": "https://github.com/abdulraheemnohri/quantumcss#readme",
+  "bugs": {
+    "url": "https://github.com/abdulraheemnohri/quantumcss/issues"
+  }
+}

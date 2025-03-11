@@ -1,0 +1,21 @@
+.q-notification {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  border-radius: 4px;
+  background: var(--q-color-background);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.q-notification.show {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.q-notification-success { border-left: 4px solid var(--q-color-success); }
+.q-notification-error { border-left: 4px solid var(--q-color-danger); }

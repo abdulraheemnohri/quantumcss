@@ -1,0 +1,76 @@
+:root {
+  --q-color-primary: #007bff;
+  --q-color-secondary: #6c757d;
+  --q-color-success: #28a745;
+  --q-color-info: #17a2b8;
+  --q-color-warning: #ffc107;
+  --q-color-danger: #dc3545;
+  --q-color-light: #f8f9fa;
+  --q-color-dark: #343a40;
+  --q-color-white: #ffffff;
+  --q-color-black: #000000;
+}
+
+.q-text-primary {
+  color: var(--q-color-primary);
+}
+
+.q-text-secondary {
+  color: var(--q-color-secondary);
+}
+
+.q-text-success {
+  color: var(--q-color-success);
+}
+
+.q-text-info {
+  color: var(--q-color-info);
+}
+
+.q-text-warning {
+  color: var(--q-color-warning);
+}
+
+.q-text-danger {
+  color: var(--q-color-danger);
+}
+
+.q-bg-primary {
+  background-color: var(--q-color-primary);
+}
+
+.q-bg-secondary {
+  background-color: var(--q-color-secondary);
+}
+
+.q-bg-success {
+  background-color: var(--q-color-success);
+}
+
+.q-bg-info {
+  background-color: var(--q-color-info);
+}
+
+.q-bg-warning {
+  background-color: var(--q-color-warning);
+}
+
+.q-bg-danger {
+  background-color: var(--q-color-danger);
+}
+
+.q-bg-light {
+  background-color: var(--q-color-light);
+}
+
+.q-bg-dark {
+  background-color: var(--q-color-dark);
+}
+
+.q-bg-white {
+  background-color: var(--q-color-white);
+}
+
+.q-bg-black {
+  background-color: var(--q-color-black);
+}

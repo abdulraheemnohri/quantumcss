@@ -1,0 +1,40 @@
+:root {
+  --q-font-family: 'Arial', sans-serif;
+  --q-font-size-base: 16px;
+  --q-line-height-base: 1.5;
+  --q-color-background: #ffffff;
+  --q-color-text: #333333;
+}
+
+body {
+  font-family: var(--q-font-family);
+  font-size: var(--q-font-size-base);
+  line-height: var(--q-line-height-base);
+  background-color: var(--q-color-background);
+  color: var(--q-color-text);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul, ol {
+  padding-left: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,35 @@
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Default direction */
+  justify-content: flex-start; /* Align items to the start */
+  align-items: stretch; /* Stretch items to fill the container */
+}
+
+.flex-container.column {
+  flex-direction: column; /* Change direction to column */
+}
+
+.flex-item {
+  flex: 1; /* Grow to fill available space */
+  margin: var(--q-spacing-unit); /* Use spacing utility */
+}
+
+.flex-item.center {
+  align-self: center; /* Center item vertically */
+}
+
+.flex-item.start {
+  align-self: flex-start; /* Align item to the start */
+}
+
+.flex-item.end {
+  align-self: flex-end; /* Align item to the end */
+}
+
+.flex-item.auto {
+  flex: auto; /* Allow item to grow and shrink */
+}
+
+.flex-item.none {
+  flex: none; /* Prevent item from growing or shrinking */
+}

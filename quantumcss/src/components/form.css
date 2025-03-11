@@ -1,0 +1,30 @@
+.q-input {
+  border: 1px solid var(--q-color-border);
+  border-radius: 4px;
+  padding: 0.5rem;
+  width: 100%;
+  transition: border-color 0.2s;
+}
+
+.q-input:focus {
+  border-color: var(--q-color-primary);
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(var(--q-color-primary-rgb), 0.2);
+}
+
+.q-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.q-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,...");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+}
+
+.q-form-group {
+  margin-bottom: 1rem;
+}
