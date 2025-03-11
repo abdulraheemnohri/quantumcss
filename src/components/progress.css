@@ -1,0 +1,23 @@
+.q-progress {
+  width: 100%;
+  height: 0.5rem;
+  background: var(--q-color-border);
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.q-progress-bar {
+  height: 100%;
+  background: var(--q-color-primary);
+  transition: width 0.3s ease;
+}
+
+.q-progress-indeterminate .q-progress-bar {
+  width: 50%;
+  animation: progress-indeterminate 1.5s infinite linear;
+}
+
+@keyframes progress-indeterminate {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}

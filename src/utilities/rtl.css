@@ -1,0 +1,8 @@
+[dir="rtl"] .q-ml-1 { margin-right: 0.25rem; margin-left: 0; }
+[dir="rtl"] .q-mr-1 { margin-left: 0.25rem; margin-right: 0; }
+
+[dir="rtl"] .q-text-left { text-align: right; }
+[dir="rtl"] .q-text-right { text-align: left; }
+
+[dir="rtl"] .q-float-left { float: right; }
+[dir="rtl"] .q-float-right { float: left; }
