@@ -83,6 +83,116 @@ The navbar component is used for navigation links and branding. It can be custom
 </nav>
 ```
 
+## Accordion
+
+The accordion component is used to toggle the visibility of content.
+
+### Classes
+- `.q-accordion`: Base accordion class.
+- `.q-accordion-header`: The header that toggles the content.
+- `.q-accordion-content`: The collapsible content area.
+- `.active`: Added to `.q-accordion` to show content.
+
+### Example
+```html
+<div class="q-accordion">
+  <div class="q-accordion-header">
+    Section 1
+    <span class="q-accordion-icon">▼</span>
+  </div>
+  <div class="q-accordion-content">
+    Content for section 1.
+  </div>
+</div>
+```
+
+## Badge
+
+Badges are used to highlight small bits of information.
+
+### Classes
+- `.q-badge`: Base badge class.
+- `.q-badge-primary`: Primary color.
+- `.q-badge-success`: Success color.
+- `.q-badge-warning`: Warning color.
+- `.q-badge-danger`: Danger color.
+- `.q-badge-dot`: Small dot version.
+
+### Example
+```html
+<span class="q-badge q-badge-primary">New</span>
+<span class="q-badge q-badge-success">Success</span>
+```
+
+## Breadcrumbs
+
+Breadcrumbs indicate the current page's location within a navigational hierarchy.
+
+### Classes
+- `.q-breadcrumbs`: Container class.
+- `.q-breadcrumb-item`: Individual link or text.
+- `.q-breadcrumb-separator`: Separator element.
+
+### Example
+```html
+<div class="q-breadcrumbs">
+  <div class="q-breadcrumb-item"><a href="/">Home</a></div>
+  <div class="q-breadcrumb-separator">/</div>
+  <div class="q-breadcrumb-item"><a href="/docs">Docs</a></div>
+  <div class="q-breadcrumb-separator">/</div>
+  <div class="q-breadcrumb-item">Breadcrumbs</div>
+</div>
+```
+
+## Form
+
+Form components for user input.
+
+### Classes
+- `.q-input`: Standard text input.
+- `.q-label`: Label for inputs.
+- `.q-form-group`: Wrapper for label and input pairs.
+- `.q-select`: Custom select styling.
+
+### Example
+```html
+<div class="q-form-group">
+  <label class="q-label">Email Address</label>
+  <input type="email" class="q-input" placeholder="Enter email">
+</div>
+```
+
+## Progress
+
+Progress bars for indicating task completion.
+
+### Classes
+- `.q-progress`: Container.
+- `.q-progress-bar`: The bar indicating progress.
+- `.q-progress-indeterminate`: For unknown duration tasks.
+
+### Example
+```html
+<div class="q-progress">
+  <div class="q-progress-bar" style="width: 70%;"></div>
+</div>
+```
+
+## Spinner
+
+Spinners for loading states.
+
+### Classes
+- `.q-spinner`: Base spinner.
+- `.q-spinner-sm`: Small spinner.
+- `.q-spinner-lg`: Large spinner.
+
+### Example
+```html
+<div class="q-spinner"></div>
+<div class="q-spinner q-spinner-sm"></div>
+```
+
 ## Conclusion
 
 These components are designed to be flexible and easy to use. You can customize them further by applying additional utility classes as needed. For more detailed information on utility classes, refer to the [Utilities Documentation](utilities.md).
