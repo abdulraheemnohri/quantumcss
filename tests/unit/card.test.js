@@ -1,5 +1,5 @@
 import { render } from '@testing-library/vue';
-import Card from '../../src/components/Card.vue';
+import Card from '../../src/components/vue/Card.vue';
 
 describe('Card Component', () => {
   it('renders correctly with default props', () => {

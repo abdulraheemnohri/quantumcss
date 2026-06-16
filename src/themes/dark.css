@@ -1,38 +1,33 @@
-:root {
-  --q-background: #121212;
-  --q-text-color: #ffffff;
-  --q-primary: #bb86fc;
-  --q-secondary: #03dac6;
-  --q-accent: #ff4081;
-  --q-border-color: #333333;
-  --q-shadow: rgba(0, 0, 0, 0.5);
+[data-theme='dark'] {
+  --q-color-background: #121212;
+  --q-color-text: #f8f9fa;
+  --q-color-primary: #bb86fc;
+  --q-color-secondary: #03dac6;
+  --q-color-accent: #ff4081;
+  --q-color-border: #333333;
+  --q-color-shadow: rgba(0, 0, 0, 0.5);
+  --q-color-surface: #1e1e1e;
+  --q-color-on-surface: #f8f9fa;
+  --q-color-surface-variant: #2c2c2c;
+  --q-color-on-surface-variant: #adb5bd;
+  --q-color-inverse-surface: #f8f9fa;
+  --q-color-inverse-on-surface: #121212;
 }
 
-body {
-  background-color: var(--q-background);
-  color: var(--q-text-color);
-}
-
-a {
-  color: var(--q-primary);
-}
-
-.q-btn {
-  background-color: var(--q-primary);
-  color: var(--q-text-color);
-  border: 1px solid var(--q-border-color);
-}
-
-.q-card {
-  background-color: var(--q-background);
-  box-shadow: 0 2px 10px var(--q-shadow);
-}
-
-.q-modal {
-  background-color: var(--q-background);
-}
-
-.q-navbar {
-  background-color: var(--q-background);
-  border-bottom: 1px solid var(--q-border-color);
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --q-color-background: #121212;
+    --q-color-text: #f8f9fa;
+    --q-color-primary: #bb86fc;
+    --q-color-secondary: #03dac6;
+    --q-color-accent: #ff4081;
+    --q-color-border: #333333;
+    --q-color-shadow: rgba(0, 0, 0, 0.5);
+    --q-color-surface: #1e1e1e;
+    --q-color-on-surface: #f8f9fa;
+    --q-color-surface-variant: #2c2c2c;
+    --q-color-on-surface-variant: #adb5bd;
+    --q-color-inverse-surface: #f8f9fa;
+    --q-color-inverse-on-surface: #121212;
+  }
 }

@@ -4,22 +4,22 @@ import Card from '../../src/components/Card.vue';
 describe('Card Integration Tests', () => {
   it('handles click events', async () => {
     const wrapper = mount(Card, {
-      props: {
+      propsData: {
         clickable: true
       }
     });
-    
+
     await wrapper.trigger('click');
     expect(wrapper.emitted('click')).toBeTruthy();
   });
 
   it('applies theme classes correctly', () => {
     const wrapper = mount(Card, {
-      props: {
+      propsData: {
         theme: 'dark'
       }
     });
-    
+
     expect(wrapper.classes()).toContain('q-theme-dark');
   });
 
@@ -31,7 +31,7 @@ describe('Card Integration Tests', () => {
         footer: '<button>Action</button>'
       }
     });
-    
+
     expect(wrapper.find('.custom-header').exists()).toBe(true);
     expect(wrapper.find('p').exists()).toBe(true);
     expect(wrapper.find('button').exists()).toBe(true);

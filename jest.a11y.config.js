@@ -5,7 +5,7 @@ module.exports = {
     '<rootDir>/tests/a11y/**/*.test.js'
   ],
   transform: {
-    '^.+\\.vue$': '@vue/vue3-jest',
-    '^.+\\.js$': 'babel-jest'
+    '^.+\.vue$': 'vue-jest',
+    '^.+\.js$': 'babel-jest'
   }
 };
