@@ -35,6 +35,19 @@
 @import './components/stats.css';
 @import './components/video.css';
 @import './components/list.css';
+@import './components/avatar.css';
+@import './components/alert.css';
+@import './components/divider.css';
+@import './components/tag.css';
+@import './components/rating.css';
+@import './components/steps.css';
+@import './components/popover.css';
+@import './components/input-group.css';
+@import './components/toast.css';
+@import './components/badge-group.css';
+@import './components/banner.css';
+@import './components/empty-state.css';
+@import './components/file-upload.css';
 
 @import './layouts/grid.css';
 @import './layouts/flexbox.css';

@@ -1,0 +1,26 @@
+.q-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.q-empty-state-icon {
+  font-size: 3rem;
+  color: var(--q-color-outline);
+  margin-bottom: 1.5rem;
+}
+
+.q-empty-state-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.q-empty-state-description {
+  color: var(--q-color-on-surface-variant);
+  max-width: 400px;
+  margin-bottom: 2rem;
+}

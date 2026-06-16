@@ -1,0 +1,45 @@
+.q-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.q-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.q-step-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--q-color-surface-container-highest);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  border: 2px solid var(--q-color-outline-variant);
+}
+
+.q-step-active .q-step-circle {
+  background: var(--q-color-primary);
+  color: white;
+  border-color: var(--q-color-primary);
+}
+
+.q-step-line {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: var(--q-color-outline-variant);
+  z-index: -1;
+}
+
+.q-step:last-child .q-step-line { display: none; }

@@ -1,29 +1,31 @@
+/**
+ * .q-card
+ * Structured content container.
+ * Often used in grids for dashboard items or product listings.
+ */
 .q-card {
-  background-color: white;
+  background: var(--q-color-surface);
+  border: 1px solid var(--q-color-outline-variant);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: var(--q-spacing-unit);
-  margin: var(--q-spacing-unit);
-  transition: box-shadow 0.3s ease;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.q-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
+/* Header section with optional border */
 .q-card-header {
-  font-size: 1.25rem;
-  font-weight: bold;
-  margin-bottom: var(--q-spacing-unit);
+  padding: 1rem;
+  font-weight: 700;
+  border-bottom: 1px solid var(--q-color-outline-variant);
 }
 
+/* Main body content area */
 .q-card-body {
-  font-size: 1rem;
-  line-height: 1.5;
+  padding: 1rem;
 }
 
+/* Footer section for actions */
 .q-card-footer {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: var(--q-spacing-unit);
+  padding: 1rem;
+  background: var(--q-color-surface-container-low);
+  border-top: 1px solid var(--q-color-outline-variant);
 }
