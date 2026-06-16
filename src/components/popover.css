@@ -1,0 +1,25 @@
+.q-popover {
+  position: absolute;
+  z-index: 1050;
+  background: var(--q-color-surface);
+  border: 1px solid var(--q-color-outline-variant);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 0.75rem;
+  min-width: 200px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.q-popover-show {
+  visibility: visible;
+  opacity: 1;
+}
+
+.q-popover-header {
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--q-color-outline-variant);
+}

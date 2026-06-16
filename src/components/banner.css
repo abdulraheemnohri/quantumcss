@@ -1,0 +1,22 @@
+.q-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: var(--q-color-primary);
+  color: var(--q-color-on-primary);
+  font-weight: 500;
+  gap: 1rem;
+}
+
+.q-banner-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.q-banner-actions {
+  display: flex;
+  gap: 0.5rem;
+}

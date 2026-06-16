@@ -1,0 +1,21 @@
+.q-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  overflow: hidden;
+  user-select: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--q-color-surface-variant);
+  color: var(--q-color-on-surface-variant);
+  font-weight: 600;
+}
+
+.q-avatar-sm { width: 32px; height: 32px; font-size: 0.875rem; }
+.q-avatar-lg { width: 56px; height: 56px; font-size: 1.25rem; }
+.q-avatar-xl { width: 80px; height: 80px; font-size: 1.75rem; }
+
+.q-avatar-square { border-radius: 4px; }
+.q-avatar img { width: 100%; height: 100%; object-fit: cover; }

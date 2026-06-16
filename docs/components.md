@@ -193,6 +193,109 @@ Spinners for loading states.
 <div class="q-spinner q-spinner-sm"></div>
 ```
 
+## Avatar
+
+Avatars are used to represent people or entities.
+
+### Classes
+- `.q-avatar`: Base avatar.
+- `.q-avatar-sm`, `.q-avatar-lg`, `.q-avatar-xl`: Size variants.
+- `.q-avatar-square`: Square variant (defaults to circle).
+
+### Example
+```html
+<div class="q-avatar">JD</div>
+<div class="q-avatar"><img src="avatar.jpg"></div>
+```
+
+## Alert
+
+Alerts provide contextual feedback messages.
+
+### Classes
+- `.q-alert`: Base alert.
+- `.q-alert-success`, `.q-alert-error`, `.q-alert-warning`, `.q-alert-info`: Contextual variants.
+
+### Example
+```html
+<div class="q-alert q-alert-success">
+  Operation completed successfully!
+</div>
+```
+
+## Tag
+
+Tags are used for labeling and categorizing content.
+
+### Classes
+- `.q-tag`: Base tag.
+- `.q-tag-closable`: Variant with a close button feel.
+
+### Example
+```html
+<span class="q-tag">JavaScript</span>
+<span class="q-tag q-tag-closable">React ✕</span>
+```
+
+## Steps
+
+Steps communicate progress through numbered stages.
+
+### Example
+```html
+<div class="q-steps">
+  <div class="q-step q-step-active">
+    <div class="q-step-circle">1</div>
+    <span>Personal Info</span>
+    <div class="q-step-line"></div>
+  </div>
+  <div class="q-step">
+    <div class="q-step-circle">2</div>
+    <span>Payment</span>
+  </div>
+</div>
+```
+
+## Banner
+
+Banners display important, concise messages and provide optional actions.
+
+### Classes
+- `.q-banner`: Base banner.
+- `.q-banner-content`: Wrapper for text/icons.
+- `.q-banner-actions`: Wrapper for buttons.
+
+### Example
+```html
+<div class="q-banner">
+  <div class="q-banner-content">
+    🎉 QuantumCSS v2.0 is now in beta!
+  </div>
+  <div class="q-banner-actions">
+    <button class="q-btn q-btn-small">Learn More</button>
+  </div>
+</div>
+```
+
+## Empty State
+
+Empty states are used when there is no data to display.
+
+### Classes
+- `.q-empty-state`: Container.
+- `.q-empty-state-title`: Heading.
+- `.q-empty-state-description`: Supporting text.
+
+### Example
+```html
+<div class="q-empty-state">
+  <div class="q-empty-state-icon">📂</div>
+  <h3 class="q-empty-state-title">No projects found</h3>
+  <p class="q-empty-state-description">Get started by creating your first project.</p>
+  <button class="q-btn q-btn-primary">New Project</button>
+</div>
+```
+
 ## Conclusion
 
 These components are designed to be flexible and easy to use. You can customize them further by applying additional utility classes as needed. For more detailed information on utility classes, refer to the [Utilities Documentation](utilities.md).
