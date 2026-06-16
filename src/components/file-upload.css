@@ -1,0 +1,24 @@
+.q-file-upload {
+  position: relative;
+  border: 2px dashed var(--q-color-outline-variant);
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.q-file-upload:hover {
+  border-color: var(--q-color-primary);
+  background: var(--q-color-surface-container-low);
+}
+
+.q-file-upload-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
