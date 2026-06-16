@@ -1,6 +1,6 @@
 .q-btn {
   display: inline-block;
-  padding: var(--q-spacing-unit) var(--q-spacing-unit * 2);
+  padding: var(--q-spacing-unit) calc(var(--q-spacing-unit) * 2);
   font-size: var(--q-font-size-base);
   font-weight: bold;
   text-align: center;
@@ -13,12 +13,12 @@
 
 .q-btn-primary {
   background-color: var(--q-color-primary);
-  color: white;
+  color: var(--q-color-white);
 }
 
 .q-btn-secondary {
   background-color: var(--q-color-secondary);
-  color: white;
+  color: var(--q-color-white);
 }
 
 .q-btn:hover {

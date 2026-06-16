@@ -1,11 +1,8 @@
-/quantumcss/quantumcss/src/base/typography.css
-
-/* Typography Styles */
 
 /* Font Families */
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.6;
+  font-family: var(--q-font-family);
+  line-height: var(--q-line-height-base);
 }
 
 /* Headings */

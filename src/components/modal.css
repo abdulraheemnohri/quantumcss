@@ -8,12 +8,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 1000;
 }
 
 .q-modal-content {
-  background: white;
+  background: var(--q-color-background);
+  color: var(--q-color-text);
   padding: var(--q-spacing-unit);
   border-radius: 4px;
   max-width: 500px;
   width: 100%;
+  box-shadow: 0 4px 12px var(--q-color-shadow);
 }

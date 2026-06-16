@@ -1,25 +1,28 @@
 .q-card {
-  background-color: white;
+  background-color: var(--q-color-background);
+  border: 1px solid var(--q-color-border);
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px var(--q-color-shadow);
   padding: var(--q-spacing-unit);
   margin: var(--q-spacing-unit);
   transition: box-shadow 0.3s ease;
 }
 
 .q-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px var(--q-color-shadow);
 }
 
 .q-card-header {
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: var(--q-spacing-unit);
+  color: var(--q-color-text);
 }
 
 .q-card-body {
   font-size: 1rem;
   line-height: 1.5;
+  color: var(--q-color-text);
 }
 
 .q-card-footer {

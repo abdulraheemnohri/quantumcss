@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/vue';
-import ThemeSwitch from '../../src/components/ThemeSwitch.vue';
+import ThemeSwitch from '../../src/components/vue/ThemeSwitch.vue';
 
 describe('ThemeSwitch Component', () => {
   it('toggles between light and dark themes', async () => {

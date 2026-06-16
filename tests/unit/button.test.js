@@ -1,5 +1,5 @@
 import { render, fireEvent } from "@testing-library/vue";
-import Button from "../../src/components/Button.vue";
+import Button from "../../src/components/vue/Button.vue";
 
 describe("Button Component", () => {
   it("renders a button with primary class", () => {
